@@ -176,8 +176,8 @@ print(time.time() - start_time)
 
 
 def atestat_analysis(file_path):
-
-	subscription_key = "f308070b83b54f8b99c5ae0697f708a0"
+	#ENTER YOUR KEY
+	#subscription_key = 
 	image_data = open(file_path, "rb").read()
 
 	word_columns = get_word_columns(get_bounding_boxes(image_data, subscription_key))
